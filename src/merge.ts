@@ -1,4 +1,4 @@
-import { isPlainObject, isSymbol } from 'is-what'
+import { isPlainObject, isSymbol } from '@cryptexlabs/is-what'
 import { concatArrays } from './extensions.js'
 import type { Assign } from './typeUtils/Assign.js'
 import type { Pop } from './typeUtils/List.js'

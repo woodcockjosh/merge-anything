@@ -1,4 +1,3 @@
-export {};
-// import { Timestamp } from '../../test/Timestamp'
-// type T1 = { b: string } & { nested: { props: number[] } } & { date: Timestamp[]; d: any[] }
-// type Test1 = PrettyPrint<T1>
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+//# sourceMappingURL=PrettyPrint.js.map

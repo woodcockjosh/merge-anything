@@ -1,4 +1,4 @@
-import { isArray } from 'is-what'
+import { isArray } from '@cryptexlabs/is-what'
 
 export function concatArrays<T>(originVal: unknown, newVal: T): T {
   if (isArray(originVal) && isArray(newVal)) {
