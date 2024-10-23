@@ -1,9 +1,10 @@
 {
-  "name": "merge-anything",
-  "version": "6.0.2",
+  "name": "@cryptexlabs/merge-anything",
+  "version": "6.0.3",
   "description": "Merge objects & other types recursively. A simple & small integration.",
   "type": "module",
   "sideEffects": false,
+  "types": "dist/index.d.ts",
   "exports": {
     ".": "./dist/index.js"
   },
@@ -17,14 +18,13 @@
     "release": "npm run lint && npm run build && np"
   },
   "dependencies": {
-    "is-what": "^5.0.1"
+    "@cryptexlabs/is-what": "^5.0.4"
   },
   "devDependencies": {
+    "@cycraft/eslint": "^0.3.0",
     "del-cli": "^5.1.0",
     "np": "^10.0.5",
-    "vitest": "^1.6.0",
-    "@cycraft/eslint": "^0.3.0",
-    "@cycraft/tsconfig": "^0.1.2"
+    "vitest": "^1.6.0"
   },
   "files": [
     "dist"
@@ -51,13 +51,15 @@
     "merge-combine",
     "nested-combine"
   ],
-  "author": "Luca Ban - Mesqueeb (https://cycraft.co)",
-  "funding": "https://github.com/sponsors/mesqueeb",
+  "authors": [
+    "Luca Ban - Mesqueeb (https://cycraft.co)",
+    "Josh Woodcock <josh.woodcock@cyrptexlabs.com>"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mesqueeb/merge-anything.git"
+    "url": "https://github.com/woodcockjosh/merge-anything.git"
   },
-  "homepage": "https://github.com/mesqueeb/merge-anything#readme",
-  "bugs": "https://github.com/mesqueeb/merge-anything/issues"
+  "homepage": "https://github.com/woodcockjosh/merge-anything#readme",
+  "bugs": "https://github.com/woodcockjosh/merge-anything/issues"
 }
