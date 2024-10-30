@@ -1,6 +1,6 @@
 {
   "name": "@cryptexlabs/merge-anything",
-  "version": "6.0.4",
+  "version": "6.0.5",
   "description": "Merge objects & other types recursively. A simple & small integration.",
   "type": "commonjs",
   "sideEffects": false,
