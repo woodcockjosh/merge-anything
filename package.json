@@ -2,7 +2,7 @@
   "name": "@cryptexlabs/merge-anything",
   "version": "6.0.4",
   "description": "Merge objects & other types recursively. A simple & small integration.",
-  "type": "module",
+  "type": "commonjs",
   "sideEffects": false,
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
@@ -16,7 +16,7 @@
     "release": "npm run lint && npm run build && np"
   },
   "dependencies": {
-    "@cryptexlabs/is-what": "^5.0.5"
+    "@cryptexlabs/is-what": "^5.0.7"
   },
   "devDependencies": {
     "@cycraft/eslint": "^0.3.0",
