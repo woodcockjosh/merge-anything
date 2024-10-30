@@ -5,9 +5,7 @@
   "type": "module",
   "sideEffects": false,
   "types": "dist/index.d.ts",
-  "exports": {
-    ".": "./dist/index.js"
-  },
+  "main": "dist/index.js",
   "engines": {
     "node": ">=18"
   },
