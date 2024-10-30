@@ -25,10 +25,10 @@
     js-tokens "^4.0.0"
     picocolors "^1.0.0"
 
-"@cryptexlabs/is-what@^5.0.4":
-  version "5.0.4"
-  resolved "https://registry.yarnpkg.com/@cryptexlabs/is-what/-/is-what-5.0.4.tgz#9dcfffcc9ab6acd9d9d53065a3a14280851bc1a1"
-  integrity sha512-HlLEL+KhBVQCZ3TmBkJ5bV8YPnRqpY5+YlsDjebmtkQ4j3b0RfTXVWrNMahviTfnDuvhEo2chF7C2o2v6V3AYw==
+"@cryptexlabs/is-what@^5.0.5":
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/@cryptexlabs/is-what/-/is-what-5.0.5.tgz#dff28937ae6757e1b49df1d239888236160ae33c"
+  integrity sha512-TYxJwI51At2iTLNminCrNfZpwaT9sjiZghVX5AeK6j/GS597eYFnJOYWcGNPD1EyL1ucCmQpL4uIKnckWhkLtA==
 
 "@cycraft/eslint@^0.3.0":
   version "0.3.0"

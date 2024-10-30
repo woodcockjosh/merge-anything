@@ -16,7 +16,7 @@
     "release": "npm run lint && npm run build && np"
   },
   "dependencies": {
-    "@cryptexlabs/is-what": "^5.0.4"
+    "@cryptexlabs/is-what": "^5.0.5"
   },
   "devDependencies": {
     "@cycraft/eslint": "^0.3.0",
